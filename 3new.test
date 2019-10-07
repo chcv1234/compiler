@@ -1,0 +1,22 @@
+void main()
+{
+	int cnt ;
+	int num ;
+	float s ;
+
+	cnt = 1 ;
+
+	num = 9 ;
+
+
+	if((cnt + num) > 11 ){
+		s = num * ( cnt + 3.5);
+		printf("num is bigger than 10\n");
+	}
+	else{
+		s = num * ( num + 3.5);
+		printf("num is smaller than 10\n");
+	}
+
+	printf("s is %f\n",s);
+}
